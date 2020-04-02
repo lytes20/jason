@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url("../fonts/Montserrat-Regular.ttf");
+}
+@font-face {
+  font-family: Montserrat;
+  font-weight: bold;
+  src: url("../fonts/montserratbold.ttf");
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+#root {
+  height: 100vh;
+}
+.container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.side {
+  flex: 0 0 15em;
+  box-shadow: 0 8px 6px 0px rgb(187, 178, 178);
+}
+
+.main {
+  flex: 1;
+}
+
+p span {
+  color: #ba7d2d;
+}
+.nav-main {
+  display: flex;
+  height: 50px;
+  box-shadow: 0 -3px 8px 0px rgb(187, 178, 178);
+}
+.content-main {
+  padding: 40px;
+}
+ul li {
+  padding: 20px;
+  border-bottom: 1px solid rgb(187, 178, 178);
+}
+
+ul li:nth-child(1) {
+  background-color: darkslategray;
+  color: white;
+  font-weight: 600;
+}
+
+.image-upload {
+  width: 500px;
+  height: 200px;
+  border: 1px solid #E6E6E6;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.image-upload input {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.image-upload-icon-container {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+button {
+  background-color: #ba7d2d;
+  border: none;
+  color: white;
+}
+
+input[type="text"],
+button {
+  padding: 10px;
+}
+
+.side-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.side-item div {
+  height: 100%;
+}
+.nav-icon-container {
+  height: 24px;
+  width: 24px;
+  margin-right: 20px;
+}
+
+.nav-icon-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.user-icon-container {
+  height: 24px;
+  width: 24px;
+  margin-right: 10px;
+}
+
+.dropdown-icon-container {
+  height: 10px;
+  width: 10px;
+  display: grid;
+  justify-content: center;
+  margin-left: 4px;
+}
+
+.dropdown-icon-container img {
+  height: 100%;
+  width: 100%;
+}
+
+.nav-main-content-right {
+  flex: 1;
+}
+
+.nav-main-content-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 15em;
+}
+
+.nav-main-content-left div {
+  /* margin-right: 10px; */
+  /* border: 1px solid red; */
+}
+
+.user-name-container p {
+  font-size: 14px;
+}

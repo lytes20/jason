@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+
+    <link rel="stylesheet" href="styles/index.css" />
+  </head>
+  <body>
+    <div id="root">
+      <div class="container">
+        <div class="side">
+          <ul>
+            <li>
+              <div class="side-item">
+                <div class="nav-icon-container">
+                  <img src="./icons/dashboard.png" />
+                </div>
+                <div>
+                  Dashboard
+                </div>
+            </li>
+            <li>
+              <div class="side-item">
+                <div class="nav-icon-container">
+                  <img src="./icons/home.png" />
+                </div>
+                <div>
+                  Home
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="side-item">
+                <div class="nav-icon-container">
+                  <img src="./icons/report.png" />
+                </div>
+                <div>
+                  Reports
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="main">
+          
+          <div class="nav-main">
+            <div class="nav-main-content-right">
+            </div>
+            <div class="nav-main-content-left">
+              <div class="user-icon-container">
+                <img src="./icons/user.png" />
+              </div>
+              <div class="user-name-container">
+                <p>User 2000</p>
+              </div>
+              <div class="dropdown-icon-container">
+                <img src="./icons/down-arrow.png" />
+              </div>
+            </div>
+          </div>
+          <div class="content-main">
+            <p><span>Analyze</span> image footer</p>
+
+            <form>
+              <label>Name of area</label><br />
+              <input type="text" placeholder="Enter name of area" />
+              <button>Save</button>
+            </form>
+            <form class="image-upload">
+              <div class="image-upload-icon-container">
+                <img src="./icons/photo.png" alt="">
+              </div>
+              <input type="file" />
+            </form>
+            <button>Analyze</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
