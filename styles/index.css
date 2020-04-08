@@ -62,11 +62,14 @@ ul li:nth-child(1) {
   font-weight: 600;
 }
 
+.area-form{
+  margin-top: 40px;
+}
 .image-upload {
   width: 500px;
   height: 200px;
   border: 1px solid #E6E6E6;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-bottom: 10px;
   position: relative;
 }
