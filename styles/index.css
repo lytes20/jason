@@ -17,7 +17,12 @@
 body {
   font-family: Montserrat, sans-serif;
 }
-
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
 img {
   height: 100%;
   width: 100%;
@@ -51,24 +56,24 @@ p span {
 .content-main {
   padding: 40px;
 }
-ul li {
+.side ul li {
   padding: 20px;
   border-bottom: 1px solid rgb(187, 178, 178);
 }
 
-ul li:nth-child(1) {
+.side ul li:nth-child(1) {
   background-color: darkslategray;
   color: white;
   font-weight: 600;
 }
 
-.area-form{
+.area-form {
   margin-top: 40px;
 }
 .image-upload {
   width: 500px;
   height: 200px;
-  border: 1px solid #E6E6E6;
+  border: 1px solid #e6e6e6;
   margin-top: 20px;
   margin-bottom: 10px;
   position: relative;
@@ -148,8 +153,22 @@ button {
   justify-content: center;
   align-items: center;
   flex: 0 0 15em;
+  position: relative;
+  cursor: pointer;
+}
+.user-dropdown {
+  position: absolute;
+  top: 50px;
+  right: 40px;
+  border: 1px solid #e0d8d8;
+  border-radius: 4px;
+  padding: 10px;
+  display: none;
 }
 
+.user-dropdown ul li a{
+  color: black;
+}
 .nav-main-content-left div {
   /* margin-right: 10px; */
   /* border: 1px solid red; */

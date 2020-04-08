@@ -1,0 +1,23 @@
+.login-form {
+  border: 1px solid #e6e6e6;
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  text-align: center;
+}
+
+.login-form input {
+  padding: 10px;
+  width: 100%;
+  margin: 20px auto;
+}
+
+.login-form input[type="submit"] {
+  background-color: #ba7d2d;
+  border: none;
+  color: white;
+  width: 50%;
+}
